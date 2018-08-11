@@ -1,0 +1,68 @@
+.App {
+}
+
+.page {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+header > h1 {
+}
+
+span.marco {
+    color: red;
+}
+
+span.polo {
+    color: blue;
+}
+
+.tracker {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.tracker > h1 {
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+
+.tracker > h6 {
+    margin: 0;
+    padding: 0;
+}
+
+.log-stream {
+    margin: 1em 0em;
+    padding: 0;
+}
+
+.log {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.log-legend {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.log-legend > span {
+    width: 10em;
+}
+
+.log-timestamp {
+    color: yellow;
+    width: 10em;
+}
+
+.log-longitude {
+    color: green;
+    width: 10em;
+}
+
+.log-latitude {
+    color: green;
+    width: 10em;
+}
