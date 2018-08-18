@@ -10,4 +10,4 @@ COPY node-server/package.json $HOME/package.json
 RUN npm install --silent
 COPY node-server/ $HOME
 
-CMD ["npm", "start"]
+CMD ["npm", "run", "dev"]

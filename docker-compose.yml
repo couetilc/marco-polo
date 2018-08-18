@@ -1,7 +1,7 @@
 version: '3'
 
 services:
-    client:
+    client-ui:
         container_name: client-ui
         build:
             context: ./client
@@ -13,11 +13,10 @@ services:
             - "3000:3000"
         environment:
             REACT_APP_DEV: 1
-            NODE_ENV: "development"
         depends_on:
             - geo-api
 
-    server:
+    geo-api:
         container_name: geo-api
         build:
             context: ./geo-api

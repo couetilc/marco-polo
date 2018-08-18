@@ -1,6 +1,6 @@
 FROM node:10-alpine
 
-ENV HOME home/react-ui/
+ENV HOME /home/react-ui/
 RUN mkdir -p $HOME
 WORKDIR $HOME
 

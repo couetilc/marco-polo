@@ -121,8 +121,8 @@ class Log extends Component {
         return(
         <div className="log">
             <span className="log-timestamp">{this.state.timestamp}</span>
-            <span className="log-longitude">{this.state.longitude}</span>
             <span className="log-latitude">{this.state.latitude}</span>
+            <span className="log-longitude">{this.state.longitude}</span>
         </div>);
     }
 }
